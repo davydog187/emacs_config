@@ -2,10 +2,15 @@
 
 ;; Place your private configuration here
 
+(set-face-attribute 'default nil :font "Fira Code" :height 140)
 (setq display-line-numbers-type 'relative)
 
+;; Magit
 (setq magit-clone-default-directory "/Users/dave/Development/")
 (setq magit-clone-set-remote.pushDefault 't)
+
+
+(setq visible-bell t)
 
 (add-to-list 'auto-mode-alist '("\\.sface\\'" . html-mode) 'append)
 

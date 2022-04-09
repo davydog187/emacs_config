@@ -12,5 +12,5 @@
 (package! flycheck-credo)
 (package! elixir-mode)
 (package! alchemist)
-(package! dart-mode)
+;;(package! dart-mode)
 (package! yaml-mode)
